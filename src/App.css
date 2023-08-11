@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 画面の高さ全体を使用 */
+}
+
+.title {
+  font-weight: bold;
+  font-size: large
+}
+
+.task {
+  display: flex;
+  margin-bottom: 8px;
+}
+
